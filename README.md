@@ -51,6 +51,20 @@ This prototype is designed for demonstration purposes. The goal is not perfect a
 
 ---
 
+##Docker running code
+
+docker run -p 8501:8501 id-fraud-detector
+
+or
+
+docker run -p 8501:8501 mrprabhul/id-fraud-detector
+
+docker run -d -p 8501:8501 id-fraud-detector
+
+docker run -d -p 8501:8501 --name id-fraud-app id-fraud-detector
+
+docker ps
+
 ## Author
 
 Prabhul P S  
